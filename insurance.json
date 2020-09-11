@@ -1,0 +1,268 @@
+{
+	"_id" : ObjectId("5f05a0e578f6662fe72ffd43"),
+	"user" : 13,
+	"snippet" : {
+		"nodes" : {
+			"_start" : {
+				"id" : "_start",
+				"text" : [
+					"Welcome to Total Insurance ",
+					"I am Rapid AI bot i will help you here ",
+					"Please select the Insurance you are looking for "
+				],
+				"type" : "buttons",
+				"position" : {
+					"top" : 289,
+					"left" : 12
+				},
+				"switches" : {
+					"kcd8fjgn@_start" : {
+						"id" : "kcd8fjgn@_start",
+						"type" : "button",
+						"title" : "Personal Insurance",
+						"payload" : "/personal-insurance",
+						"destination" : "kcd8h7a4"
+					},
+					"kcd8fjgo@_start" : {
+						"id" : "kcd8fjgo@_start",
+						"type" : "button",
+						"title" : "Car Insurance",
+						"payload" : "/car-insurance",
+						"destination" : "kcd9b2st"
+					},
+					"kcd8fjgp@_start" : {
+						"id" : "kcd8fjgp@_start",
+						"type" : "button",
+						"title" : "Bike Insurance",
+						"payload" : "/bike-insurance",
+						"destination" : "kcd9evs6"
+					},
+					"kcd8fjgq@_start" : {
+						"id" : "kcd8fjgq@_start",
+						"type" : "button",
+						"title" : "Health Insurance",
+						"payload" : "/health-insurance",
+						"destination" : "kcda3ara"
+					},
+					"kcd8fjgr@_start" : {
+						"id" : "kcd8fjgr@_start",
+						"type" : "button",
+						"title" : "Business Insurance",
+						"payload" : "/business-insurance",
+						"destination" : "kcda6hxz"
+					}
+				}
+			},
+			"kcd8h7a4" : {
+				"id" : "kcd8h7a4",
+				"type" : "buttons",
+				"position" : {
+					"top" : 0,
+					"left" : 667.9921875
+				},
+				"text" : [
+					"You have selected Personal Insurance",
+					"Please select one from below to proceed"
+				],
+				"switches" : {
+					"kcd8h7a4@kcd8h7a4" : {
+						"id" : "kcd8h7a4@kcd8h7a4",
+						"type" : "button",
+						"title" : "Renew your insurance ",
+						"payload" : "/renew-your-insurance-",
+						"destination" : "kcd8i63w"
+					},
+					"kcd8h7a5@kcd8h7a4" : {
+						"id" : "kcd8h7a5@kcd8h7a4",
+						"type" : "button",
+						"title" : "Buy new Insurance policy",
+						"payload" : "/buy-new-insurance-policy",
+						"destination" : "kcd8m9hs"
+					}
+				}
+			},
+			"kcd8i63w" : {
+				"id" : "kcd8i63w",
+				"type" : "text",
+				"position" : {
+					"top" : 48.984375,
+					"left" : 1316.9765625
+				},
+				"text" : [
+					"Please enter your insurance policy number "
+				]
+			},
+			"kcd8m9hs" : {
+				"id" : "kcd8m9hs",
+				"type" : "form",
+				"position" : {
+					"top" : 186,
+					"left" : 1299.984375
+				},
+				"text" : [
+					"Thank you for choosing us ",
+					"Please fill the details for confirmation"
+				],
+				"form" : [
+					{
+						"label" : "Name",
+						"type" : "text",
+						"placeholder" : "Please enter your Name"
+					},
+					{
+						"label" : "Email",
+						"type" : "email",
+						"placeholder" : "Please enter your email id"
+					},
+					{
+						"label" : "Mobile number ",
+						"type" : "tel",
+						"placeholder" : "Please enter your mobile number"
+					}
+				],
+				"destination" : "kcd8nols"
+			},
+			"kcd8nols" : {
+				"id" : "kcd8nols",
+				"type" : "form",
+				"position" : {
+					"top" : 141,
+					"left" : 1838
+				},
+				"text" : [
+					"Thank you for filling the details ",
+					"Your details are safe with us ",
+					"Our representative will reach you soon",
+					"Have a nice day"
+				],
+				"form" : [
+					{
+						"label" : "",
+						"type" : "text",
+						"placeholder" : ""
+					}
+				]
+			},
+			"kcd9b2st" : {
+				"id" : "kcd9b2st",
+				"type" : "buttons",
+				"position" : {
+					"top" : 164.984375,
+					"left" : 427
+				},
+				"text" : [
+					"You have selected Car insurance ",
+					"Please select one to proceed"
+				],
+				"switches" : {
+					"kcd9bt5d@kcd9b2st" : {
+						"id" : "kcd9bt5d@kcd9b2st",
+						"type" : "button",
+						"title" : "Renew your insurance ",
+						"payload" : "/renew-your-insurance-",
+						"destination" : "kcd8i63w"
+					},
+					"kcd9bt5e@kcd9b2st" : {
+						"id" : "kcd9bt5e@kcd9b2st",
+						"type" : "button",
+						"title" : "Buy new insurance policy",
+						"payload" : "/buy-new-insurance-policy",
+						"destination" : "kcd8m9hs"
+					}
+				}
+			},
+			"kcd9evs6" : {
+				"id" : "kcd9evs6",
+				"type" : "buttons",
+				"position" : {
+					"top" : 283.96875,
+					"left" : 838.96875
+				},
+				"text" : [
+					"You have selected Bike insurance ",
+					"Please select one to proceed"
+				],
+				"form" : [
+					{
+						"label" : "",
+						"type" : "text",
+						"placeholder" : ""
+					}
+				],
+				"switches" : {
+					"kcd9fytv@kcd9evs6" : {
+						"id" : "kcd9fytv@kcd9evs6",
+						"type" : "button",
+						"title" : "Renew your insurance",
+						"payload" : "/renew-your-insurance",
+						"destination" : "kcd8i63w"
+					},
+					"kcd9fytw@kcd9evs6" : {
+						"id" : "kcd9fytw@kcd9evs6",
+						"type" : "button",
+						"title" : "Buy new insurance policy",
+						"payload" : "/buy-new-insurance-policy",
+						"destination" : "kcd8m9hs"
+					}
+				}
+			},
+			"kcda3ara" : {
+				"id" : "kcda3ara",
+				"type" : "buttons",
+				"position" : {
+					"top" : 409.6171875,
+					"left" : 605.9140625
+				},
+				"text" : [
+					"You have selected Health insurance",
+					"Please select one to proceed "
+				],
+				"switches" : {
+					"kcda3ara@kcda3ara" : {
+						"id" : "kcda3ara@kcda3ara",
+						"type" : "button",
+						"title" : "Renew your insurance",
+						"payload" : "/renew-your-insurance",
+						"destination" : "kcd8i63w"
+					},
+					"kcda3arb@kcda3ara" : {
+						"id" : "kcda3arb@kcda3ara",
+						"type" : "button",
+						"title" : "Buy new insurance policy",
+						"payload" : "/buy-new-insurance-policy",
+						"destination" : "kcd8m9hs"
+					}
+				}
+			},
+			"kcda6hxz" : {
+				"id" : "kcda6hxz",
+				"type" : "buttons",
+				"position" : {
+					"top" : 650.9921875,
+					"left" : 412.9921875
+				},
+				"text" : [
+					"You have selected Business Insurance",
+					"Please select one to proceed "
+				],
+				"switches" : {
+					"kcda6hxz@kcda6hxz" : {
+						"id" : "kcda6hxz@kcda6hxz",
+						"type" : "button",
+						"title" : "Renew your insurance",
+						"payload" : "/renew-your-insurance",
+						"destination" : "kcd8i63w"
+					},
+					"kcda6hy0@kcda6hxz" : {
+						"id" : "kcda6hy0@kcda6hxz",
+						"type" : "button",
+						"title" : "Buy a new policy",
+						"payload" : "/buy-a-new-policy",
+						"destination" : "kcd8m9hs"
+					}
+				}
+			}
+		}
+	}
+}
+
